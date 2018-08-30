@@ -24,8 +24,8 @@ lib/model/rpn/proposal_target_layer_cascade.py
 lib/model/faster-rcnn/repulsion_loss.py
 
 ## Train 
-
-python trainval_net_vgg_repulsion_512.py --cuda
-
+``` python
+python train_vgg_repulsion.py --cuda --mGPUs
+```
 
 
